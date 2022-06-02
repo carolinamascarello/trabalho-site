@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Flores;
+    src: url(static/PlayfairDisplay-MediumItalic.ttf);
+
+   }
+
+:root {
+    --cor-1: #A09AB3;
+    --cor-2: #FFB5D1;
+    --cor-3: #E7FFC1;
+    --cor-4: #B3768D;
+    --cor-5: #DACFFF;
+    --cor-texto: #222;
+    /* --cor-fundo:#e2ddb3;
+    --cor-título:#58A866;
+    --cor-titulo-2:
+    --cor-paragrafo:#222;
+    --cor-link:#df1d67; */
+    --fonte: Flores 
+    
+}
+body{
+    background-color:var(--cor-3);
+    font-family: var(--fonte);
+    width: 600px;
+    max-width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+h1 {
+    color:var(--cor-1);
+}
+
+h2{
+    color:var(--cor-4);
+}
+ 
+p {
+    color:var(--cor-texto);
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ 
+ul li a {
+    color:var(--cor-link);
+}
+ 
+/*<div class="imagem"> */
+div.imagem {
+    text-align: justify;
+ 
+}
+ 
+img {
+    border-radius: 20%;
+    border-color:#d6d1a9;
+    border-width: 8px;
+   border-style: hidden;
+ 
+}
